@@ -42,11 +42,7 @@ We experimented with two main classifiers:
 - Achieved **high accuracy** on the raw dataset
 - 📈 **Test Accuracy**: `94%`
 
-**Classification Report (Unscaled Data):**
-       0       0.99      0.97      0.98
-       1       0.95      0.92      0.93
-       2       0.91      0.91      0.91
-       3       0.93      0.97      0.95
+
 
 ---
 
@@ -56,12 +52,6 @@ We experimented with two main classifiers:
 - After applying **Standard Scaling to selected columns**:
   - `battery_power`, `int_memory`, `mobile_wt`, `px_height`, `px_width`, `ram`
 - Significant performance improvement!
-
-**Classification Report (After Scaling):**
-       0       0.95      0.97      0.96
-       1       0.92      0.91      0.91
-       2       0.91      0.91      0.91
-       3       0.95      0.94      0.95
        
 📈 **Improved Accuracy**: `93%`  
 📌 Scaling made a **big difference** for Logistic Regression, confirming its sensitivity to feature magnitudes.
